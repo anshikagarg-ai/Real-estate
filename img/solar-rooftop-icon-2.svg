@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="127" height="120" viewBox="0 0 127 120">
+    <g data-name="Group 10106">
+        <path data-name="Rectangle 4246" d="M70 0h57v100a20 20 0 0 1-20 20H0V70A70 70 0 0 1 70 0z" style="fill:#e5f7ff"/>
+        <path data-name="Path 18445" d="M58.077 162.28H31.1L7.98 120h26.976z" transform="translate(34.653 -68.774)" style="fill:#72d4ff"/>
+        <g data-name="Group 12575">
+            <path d="M367.98 0h1.927v2.883h-1.927z" transform="translate(-283.068 33.598)" style="fill:#fdb62f" data-name="Group 12567"/>
+            <path d="M367.98 184h1.927v2.883h-1.927z" transform="translate(-283.068 -128.301)" style="fill:#fdb62f" data-name="Group 12568"/>
+            <path d="M271.98 96h2.89v1.922h-2.89z" transform="translate(-198.629 -50.871)" style="fill:#fdb62f" data-name="Group 12569"/>
+            <path d="M455.98 96h2.89v1.922h-2.89z" transform="translate(-360.471 -50.871)" style="fill:#fdb62f" data-name="Group 12570"/>
+            <path d="m296.779 26.163 1.363-1.359 2.044 2.038-1.363 1.358z" transform="translate(-220.442 11.773)" style="fill:#fdb62f" data-name="Group 12571"/>
+            <path d="m426.9 156.243 1.362-1.359 2.044 2.038-1.363 1.359z" transform="translate(-334.891 -102.682)" style="fill:#fdb62f" data-name="Group 12572"/>
+            <path d="m296.782 156.949 2.044-2.038 1.362 1.359-2.044 2.038z" transform="translate(-220.444 -102.706)" style="fill:#fdb62f" data-name="Group 12573"/>
+            <path d="m426.894 26.838 2.044-2.038 1.363 1.359-2.044 2.041z" transform="translate(-334.887 11.777)" style="fill:#fdb62f" data-name="Group 12574"/>
+        </g>
+        <path data-name="Path 18447" d="M7.98 120v6.726l19.268 35.554H31.1z" transform="translate(33.579 -71.988)" style="fill:#dedede"/>
+        <path data-name="Path 18449" d="M82.639 150.749 77.9 142.1h7.526l-1.05-1.922h-7.529l-4.739-8.648h7.538l-1.05-1.922h-7.541L65.79 120h-2.2l5.265 9.609h-6.471L57.119 120h-2.2l5.265 9.609H51.62l1.05 1.922h8.574l4.739 8.648h-8.574l1.05 1.922h8.582l4.739 8.648h-8.6l1.05 1.922h8.594l5.265 9.609h2.2l-5.265-9.609H81.5l5.265 9.609h2.2l-5.265-9.609h7.515l-1.05-1.922zm-19.2-19.218h6.474l4.739 8.648h-6.476zm10.531 19.218-4.741-8.649H75.7l4.739 8.648z" transform="translate(-4.806 -71.988)" style="fill:#3570ab"/>
+        <path data-name="Path 18450" d="M319.687 55.374a7.687 7.687 0 1 0-7.707-7.687 7.7 7.7 0 0 0 7.707 7.687zm0-13.453a5.765 5.765 0 1 1-5.78 5.765 5.773 5.773 0 0 1 5.78-5.764z" transform="translate(-233.812 -1.597)" style="fill:#4b567e"/>
+        <path d="M367.98 0h1.927v2.883h-1.927z" transform="translate(-283.068 33.598)" style="fill:#4b567e"/>
+        <path d="M367.98 184h1.927v2.883h-1.927z" transform="translate(-283.068 -128.301)" style="fill:#4b567e"/>
+        <path d="M271.98 96h2.89v1.922h-2.89z" transform="translate(-198.629 -50.871)" style="fill:#4b567e"/>
+        <path d="M455.98 96h2.89v1.922h-2.89z" transform="translate(-360.47 -50.871)" style="fill:#4b567e"/>
+        <path d="m296.779 26.163 1.363-1.359 2.044 2.038-1.363 1.358z" transform="translate(-220.441 11.773)" style="fill:#4b567e"/>
+        <path d="m426.9 156.243 1.362-1.359 2.044 2.038-1.363 1.359z" transform="translate(-334.891 -102.682)" style="fill:#4b567e"/>
+        <path d="m296.782 156.949 2.044-2.038 1.362 1.359-2.044 2.038z" transform="translate(-220.444 -102.706)" style="fill:#4b567e"/>
+        <path d="m426.894 26.838 2.044-2.038 1.363 1.359-2.044 2.041z" transform="translate(-334.887 11.777)" style="fill:#4b567e"/>
+        <path data-name="Path 18451" d="M19.4 155.7a.964.964 0 0 0 .848.5h30.828a.961.961 0 0 0 .846-1.421L28.8 112.5a.964.964 0 0 0-.846-.5H.979a1.006 1.006 0 0 0-.215.028H.741a.935.935 0 0 0-.265.117.729.729 0 0 0-.069.052 1.007 1.007 0 0 0-.208.212c-.013.02-.032.037-.044.058a.835.835 0 0 0-.052.121.777.777 0 0 0-.034.077.957.957 0 0 0-.048.288v6.734a.96.96 0 0 0 .116.457zM1.942 119.444v-2.714l20.535 37.55h-1.652zm8.1-5.522 4.729 8.648h-7.44L2.6 113.922zm8.671 0 4.729 8.648h-6.477l-4.729-8.648zm19.179 19.218h-6.475l-4.729-8.648h6.475zm-3.585 21.14-4.729-8.648h6.475l4.729 8.648zm-9.634 0-4.729-8.648h7.439l4.729 8.648zm-10.51-19.218H21.6l4.729 8.648h-7.437zm-1.051-1.922-4.729-8.648h7.439l4.729 8.648zm15.415 10.57-4.727-8.648h6.475L35 143.71zm3.941-8.648h6.475l4.729 8.648H37.2zm-3.247-1.922h-6.475l-4.729-8.648h6.475zm13.757 21.14-4.729-8.648h6.475l4.729 8.648zm-10.867-31.71h-6.475l-4.729-8.648h6.475z" transform="translate(40.58 -64.949)" style="fill:#4b567e"/>
+    </g>
+</svg>
