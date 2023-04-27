@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/svg+xml">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="dev_headeroverlay" style="width:100%;height:100vh;position:fixed;top:0;left:0;z-index:2;display:none;">
+    </div>
+
+    <header class="active outer" page="">
+        <div class="logoBox Top_Misc_L1"> 
+            <a> 
+                <img fetchpriority="low" class="img-responsive Top_Misc_L1" width="97" height="34" src="img/logo.png">
+            </a> 
+        </div>
+        <nav>
+            <div class="desktopNav">
+                <ul class="navItem">
+                    <li data-id="buyItem">
+                        <span>City</span>
+                    </li>
+                    <li data-id="buyItem">
+                        <span>Buy</span>
+                    </li>
+                    <li data-id="rentItem">
+                        <span>Rent</span>
+                    </li>
+                    <li data-id="projectsItem">
+                        <span>Projects</span>
+                    </li>
+                    <li>
+                        <span>Agents</span>
+                    </li>
+                    <li>
+                        <span>More Services</span>
+                    </li>
+                    <li>
+                        <span>Resources</span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a class="btn property-btn">
+            <span>Free</span>POST PROPERTY</a>
+        <div class="headerRightSide"><a
+                class="btn postPropertyBtn " id="postProperty">Sell or Rent Property</a> <a
+                class="headerProfileBoxParent btn loginBtn Top_Misc_L5">
+                <span>Login</span></a>
+        </div>
+    </header>
+
+    <div class="homeDesktopBanner">
+        <img width="1366" height="560" src="img/villa.jpg" alt="banner">
+        <div class="container contentBox">
+            <!-- <h1 class="realEstateHeading">Real Estate Made Real Easy</h1> -->
+            <div class="homeDesktopTabBox">
+                <ul>
+                    <li>
+                        <a>
+                            <em class="hti hti-icon2 Home_Search_L2"></em>
+                            <span class="Home_Search_L2">Buy <br /> Properties</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <em class="hti hti-icon3 Home_Search_L3"></em>
+                            <span class="Home_Search_L3">Rent <br /> Properties</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <em class="hti hti-icon1 Home_Search_L1"></em>
+                            <span class="Home_Search_L1">New <br /> Projects</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <em class="hti hti-icon4"></em>
+                            <span class="">Plot <br /> &amp; Land</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <em class="hti hti-icon5"></em>
+                            <span class="">Commercial <br /> Properties</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <em class="hti hti-icon6 Home_Search_L4"></em>
+                            <span class="Home_Search_L4">Find <br /> Agents</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <em class="hti hti-icon8 Home_Search_L29"></em>
+                            <span class="Home_Search_L29">More <br />Services</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="newdAutoForm" class="homeGreenBox">
+                <div class="homeDesktopSearchBox">
+                    <div class="searchInputBox">
+                        <div id="homeSearchDesktop" class="inputBox1">
+                            <div id="chipDiv">
+                                <input class="form-control searchInput" type="text" name="" placeholder="Search">
+                            </div>
+                            
+                            <div id="topresultsearch" class="desktopAutoComplete"></div>
+                        </div>
+                        <div class="inputBox2">
+                            <div class="dropdown budget">
+                                <button type="button" class="dropdown-toggle"><span
+                                        class="budgetSearch">Price</span></button>
+                                <div class="dropdown-menu" id="ddmenu">
+                                </div>
+                            </div>
+                            <div>
+                            
+                                <button button="" type="button" class="dropdown-toggle"><span class="value">Property
+                                        Type</span> <span style="display: none" class="budge"></span></button>
+                                <div class="dropdown-menu" id="ddMenu">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="searchBtn"><em class="icon-search"></em> <span>Search</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<!--Property services-->
+	 <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Property Services</h1>
+                    
+                </div>
+                <div class="row g-3">
+				<div class="row g-3">
+                    <div class="col">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img  src="img/icon-apartment.png" alt="Icon">
+                                </div>
+                                <h5>packers and movers</h5>
+                               <p>Home shifting and vechile shifting a gauranteed lowest price</p>
+								
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/icon-villa.png" alt="Icon">
+                                </div>
+                                <h6>Interiors and Furnishing</h6>
+                                <ul>
+									<li>Attractive intrest Rates</li>
+								</ul>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/icon-house.png" alt="Icon">
+                                </div>
+                                <h6>Zero brokrage Rentals</h6>
+                                <ul>
+									<li>Attractive intrest Rates</li>
+								</ul>
+                            </div>
+                        </a>
+                    </div>
+					<div class="col">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/icon-house.png" alt="Icon">
+                                </div>
+                                <h6>Zero brokrage Rentals</h6>
+                                <ul>
+									<li>Attractive intrest Rates</li>
+								</ul>
+                            </div>
+                        </a>
+                    </div>
+				</div>
+				
+            </div>
+        </div>
+		</div>
+    <!-- Everything you Need at One Place section -->
+    <div class="service-box-container">
+        <div class="container">
+            <h2>Everything you Need at One Place</h2>
+            <div class="inner-box">
+                <div class="main-div">
+                    <div class="service-card card-details">
+                        <img class="img-responsive logo lazy" src="img/urban-money-logo.svg" alt="Home Loan">
+                        <h3>Home Loan</h3>
+                        <ul>
+                            <li>Attractive Interest Rates</li>
+                            <li>Greater Loan Eligibility</li>
+                            <li>Loan Offers From Banks </li>
+                        </ul>
+                        <a class="btn" href="">Apply Now</a>
+                        <figure> <img class="img-responsive lazy" src="img/home-loan-icon-2.svg" alt="azuro-web">
+                        </figure>
+                    </div>
+                    <div class="service-card card-details"> <img class="img-responsive logo lazy"
+                            src="img/interior-logo.svg" alt="azuro-logo">
+                        <h3>Interiors & Furnishing</h3>
+                        <ul>
+                            <li>Lowest Prices Guaranteed</li>
+                            <li>10-Year Warranty</li>
+                            <li>Timely Delivery Assurance</li>
+                        </ul>
+                        <a class="btn" href="">Book Consultation</a>
+                        <figure>
+                            <img class="img-responsive lazy" src="img/home-interior-icon-2.svg"
+                                alt="Interiors & Furnishing">
+                        </figure>
+                    </div>
+                    <div class="service-card"> <img class="img-responsive logo lazy" src="img/azuro-logo.svg"
+                            alt="azuro-logo">
+                        <h3>Zero Brokerage Rentals</h3>
+                        <p>Hassle Free Property Management Services.</p>
+                        <a class="btn" href="">Contact
+                            Now</a>
+                        <figure> <img class="img-responsive lazy" src="img/property-management-web-2.svg"
+                                alt="Property Management"> </figure>
+                    </div>
+                    <div class="service-card"> <img class="img-responsive logo lazy" src="img/prop-amc-logo.svg" alt=""
+                            srcset="">
+                        <h3>Legal & Registration</h3>
+                        <p>End to end legal assistance in property related matters.</p>
+                        <a class="btn" href="">Contact Now</a>
+                        <figure> <img class="img-responsive lazy" src="img/property-legal-services-web-2.svg"
+                                alt="Legal & Registration"> </figure>
+                    </div>
+                    <div class="service-card btnPlace">
+                        <h3>Property Inspection</h3>
+                        <p>Get your property evaluated inside-out by professionals/experts.</p>
+                        <a class="btn" href="">Contact Now</a>
+                        <figure> <img class="img-responsive lazy" src="img/home-property-inspection-icon.svg"
+                                alt="Home Construction"> </figure>
+                    </div>
+                    <div class="service-card">
+                        <h3>Packers & Movers</h3>
+                        <p>Professional and reliable home shifting & moving services at reasonable rates.</p>
+                        <a class="btn" href="">Contact
+                            Now</a>
+                        <figure>
+                            <img class="img-responsive lazy" src="img/movers-packers-icon-2.svg" alt="Packers & Movers">
+                        </figure>
+                    </div>
+                    <div class="service-card">
+                        <h3>Vastu</h3>
+                        <p>Get effective vastu guidance and advice online from experienced consultants.</p>
+                        <a class="btn" href="">Contact
+                            Now</a>
+                        <figure>
+                            <img class="img-responsive lazy" src="img/vastu-icon-2.svg" alt="Vastu">
+                        </figure>
+                    </div>
+                    <div class="service-card">
+                        <h3>Furniture & Appliances on Rent</h3>
+                        <p>Rent premium furniture and appliances of your choice at affordable rates.</p>
+                        <a class="btn" href="">Contact Now</a>
+                        <figure> <img class="img-responsive lazy" src="img/furniture-on-rent-icon-2.svg"
+                                alt="Furniture & Appliances on Rent">
+                        </figure>
+                    </div>
+                    <div class="service-card">
+                        <h3>Solar Rooftop</h3>
+                        <p>Customized residential and commercial solar rooftop solutions installed by experts.</p>
+                        <a class="btn" href="">Contact Now</a>
+                        <figure>
+                            <img class="img-responsive lazy" src="img/solar-rooftop-icon-2.svg" alt="Solar Rooftop">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- #SERVICE-->
+
+    <section class="service" id="service">
+        <div class="container">
+            <p class="section-subtitle">Our Services</p>
+            <h2 class="h2 section-title"><strong>New Real Estate Projects</strong></h2>
+            <ul class="service-list">
+                <li>
+                    <div class="service-card card1">
+                        <h3 class="h3 card-title">
+                            <a href="#">Best Sellers</a>
+                        </h3>
+                        <p class="card-text">
+                            Our freshly brewed list of the
+                            best residential projects from
+                            top rate builders in the country,
+                            backed by award-wining start-to-finish services.
+                        </p>
+                        <a class="card-link">
+                            <button type="button" class="btn1">View all</button>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="service-card card2">
+                        <h3 class="h3 card-title">
+                            <a href="#">Recommended Insights</a>
+                        </h3>
+                        <p class="card-text">
+                            Our freshly brewed list of the
+                            best residential projects from
+                            top rate builders in the country,
+                            backed by award-wining start-to-finish services.
+                        </p>
+                        <a class="card-link">
+                            <button type="button" class="btn1">View all</button>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="service-card card3">
+                        <h3 class="h3 card-title">
+                            <a href="#">Handpicked Projects</a>
+                        </h3>
+                        <p class="card-text">
+                            Our freshly brewed list of the
+                            best residential projects from
+                            top rate builders in the country,
+                            backed by award-wining start-to-finish services.
+                        </p>
+                        <a class="card-link">
+                            <button type="button" class="btn1">View all</button>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+
+    <!-- #FOOTER -->
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-brand">
+                    
+                      <ul class="footer-list">
+						
+
+                        <li>
+                            <p class="footer-list-title">Downtown</p>
+                        </li>
+						<li>
+                            <a href="#" class="footer-link">Mobile apps</a>
+                        </li>
+
+
+                        <li>
+                            <a href="#" class="footer-link">Mobile apps</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Our services</a>
+                        </li>
+                       
+
+                        <li>
+                            <a href="#" class="footer-link">Post Your Property</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Builders in India</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">area Converters</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Articles</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Customer service</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Site map</a>
+                        </li>
+
+                    </ul>
+
+                   
+
+                    
+                </div>
+
+                <div class="footer-link-box">
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <p class="footer-list-title">Company</p>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">About</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Contact Us</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Terms and Conditions</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Request Info</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Feedback</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Report a problem</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Testimonials</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Privacy policy</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Summons/notices</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Grievances</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Safety Guide</a>
+                        </li>
+						
+					</div>
+
+                    
+					<div>
+
+					
+					 <ul class="contact-list" >
+					 
+						<li>
+                            <p class="footer-list-title">Contact Us</p>
+                        </li>
+                        <li>
+                            <a href="#" class="contact-link">
+                                <img src="img/location-pin-svgrepo-com.svg" class="contact">
+                                <address>NIFT Panchkula, Chandigarh, India</address>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="tel:+0123456789" class="contact-link">
+                                <img src="img/call-192-svgrepo-com.svg" class="contact">
+
+                                <span>+0123-456789</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="" class="contact-link">
+                                <img src="img/mail-svgrepo-com.svg" class="contact">
+
+                                <span>contact@gmail.com</span>
+                            </a>
+                        </li>
+
+                    </ul>
+					<ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <img src="img/facebook-svgrepo-com.svg" class="social">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <img src="img/twitter-rounded-border-svgrepo-com.svg" class="social">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <img src="img/linkedin-svgrepo-com.svg" class="social">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <img src="img/youtube-svgrepo-com.svg" class="social">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <img src="img/instagram-167-svgrepo-com.svg" class="social">
+                            </a>
+                        </li>
+
+                    </ul>
+					<ul>
+
+					<li><p class="section-text">
+                        Downtown is India's largest integrated real estate marketplace,
+                        with category leadership presence accross multiple touch points of
+                        consumer home ownership journey. Downtown is at the forefront of each
+                        tech adoption in the sector, with multiple patents across VR/AI domains.
+                    </p></li>
+					</ul>
+					</div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
