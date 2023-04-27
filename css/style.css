@@ -393,7 +393,7 @@ h2{font-size:26px;line-height:22px;color:#333;text-align:center}
   header {
       padding: 0 15px 0 125px !important;
       z-index: 9 !important;
-      background: #000;
+      background: #5F8575;
       display: flex;
       align-items: center;
       height: 48px;
@@ -417,7 +417,7 @@ h2{font-size:26px;line-height:22px;color:#333;text-align:center}
   .desktopNav .navItem {
       display: flex;
       position: relative;
-      margin-top: 10px;
+      margin-top: 13px;
   }
 
   .desktopNav .navItem li {
@@ -449,20 +449,6 @@ h2{font-size:26px;line-height:22px;color:#333;text-align:center}
       top: 0
   }
 
-  .desktopNav .navItem li .megaDropDownLinks {
-      position: absolute;
-      top: 48px;
-      left: 0;
-      border-radius: 0 0 8px 8px;
-      box-shadow: 0 6px 18px 0 #0000001a;
-      background: #fff;
-      max-height: 535px;
-      width: 0;
-      display: block;
-      overflow: hidden;
-      opacity: 0;
-      transition: .1s
-  }
 
   header .headerRightSide {
       position: absolute;
@@ -516,9 +502,9 @@ h2{font-size:26px;line-height:22px;color:#333;text-align:center}
   header .loginBtn {
       padding: 0 21px;
       margin-right: 10px;
-      background: #444;
-      border: #444 solid 1px;
-      color: #fff;
+      background: #fff;
+      border:  #fff solid 1px;
+      color: #444;
       line-height: 30px;
       transition: .5s;
       height: auto;
