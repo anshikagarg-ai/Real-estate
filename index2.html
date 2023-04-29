@@ -13,28 +13,25 @@
 </head>
 
 <body>
-    <div id="dev_headeroverlay" style="width:100%;height:100vh;position:fixed;top:0;left:0;z-index:2;display:none;">
-    </div>
-
     <header class="active outer" page="">
-        <div class="logoBox Top_Misc_L1"> 
-            <a> 
-                <img fetchpriority="low" class="img-responsive Top_Misc_L1" width="97" height="34" src="img/logo.png">
-            </a> 
+        <div class="logoBox">
+            <a>
+                <img class="img-responsive" width="97" height="34" src="img/logo.png">
+            </a>
         </div>
         <nav>
-            <div class="desktopNav">
-                <ul class="navItem">
-                    <li data-id="buyItem">
+            <div class="nav-menu">
+                <ul class="nav-item">
+                    <li>
                         <span>City</span>
                     </li>
-                    <li data-id="buyItem">
+                    <li>
                         <span>Buy</span>
                     </li>
-                    <li data-id="rentItem">
+                    <li>
                         <span>Rent</span>
                     </li>
-                    <li data-id="projectsItem">
+                    <li>
                         <span>Projects</span>
                     </li>
                     <li>
@@ -50,37 +47,38 @@
             </div>
         </nav>
         <a class="btn property-btn">
-            <span>Free</span>POST PROPERTY</a>
-        <div class="headerRightSide"><a
-                class="btn postPropertyBtn " id="postProperty">Sell or Rent Property</a> <a
-                class="headerProfileBoxParent btn loginBtn Top_Misc_L5">
-                <span>Login</span></a>
+            <span>Free</span>POST PROPERTY
+        </a>
+        <div class="headerRightSide">
+            <a class="btn post-property-btn">Sell or Rent Property</a> 
+            <a class="btn loginBtn">
+                <span>Login</span>
+            </a>
         </div>
     </header>
 
     <div class="homeDesktopBanner">
         <img width="1366" height="560" src="img/villa.jpg" alt="banner">
         <div class="container contentBox">
-            <!-- <h1 class="realEstateHeading">Real Estate Made Real Easy</h1> -->
             <div class="homeDesktopTabBox">
                 <ul>
                     <li>
                         <a>
-                            <em class="hti hti-icon2 Home_Search_L2"></em>
-                            <span class="Home_Search_L2">Buy <br /> Properties</span>
+                            <em class="hti hti-icon2"></em>
+                            <span>Buy <br /> Properties</span>
                         </a>
                     </li>
                     <li>
                         <a>
-                            <em class="hti hti-icon3 Home_Search_L3"></em>
-                            <span class="Home_Search_L3">Rent <br /> Properties</span>
+                            <em class="hti hti-icon3"></em>
+                            <span>Rent <br /> Properties</span>
                         </a>
                     </li>
 
                     <li>
                         <a>
-                            <em class="hti hti-icon1 Home_Search_L1"></em>
-                            <span class="Home_Search_L1">New <br /> Projects</span>
+                            <em class="hti hti-icon1"></em>
+                            <span>New <br /> Projects</span>
                         </a>
                     </li>
 
@@ -94,21 +92,21 @@
                     <li>
                         <a>
                             <em class="hti hti-icon5"></em>
-                            <span class="">Commercial <br /> Properties</span>
+                            <span>Commercial <br /> Properties</span>
                         </a>
                     </li>
 
                     <li>
                         <a>
-                            <em class="hti hti-icon6 Home_Search_L4"></em>
-                            <span class="Home_Search_L4">Find <br /> Agents</span>
+                            <em class="hti hti-icon6"></em>
+                            <span>Find <br /> Agents</span>
                         </a>
                     </li>
 
                     <li>
                         <a>
-                            <em class="hti hti-icon8 Home_Search_L29"></em>
-                            <span class="Home_Search_L29">More <br />Services</span>
+                            <em class="hti hti-icon8"></em>
+                            <span>More <br />Services</span>
                         </a>
                     </li>
                 </ul>
@@ -120,7 +118,7 @@
                             <div id="chipDiv">
                                 <input class="form-control searchInput" type="text" name="" placeholder="Search">
                             </div>
-                            
+
                             <div id="topresultsearch" class="desktopAutoComplete"></div>
                         </div>
                         <div class="inputBox2">
@@ -131,7 +129,7 @@
                                 </div>
                             </div>
                             <div>
-                            
+
                                 <button button="" type="button" class="dropdown-toggle"><span class="value">Property
                                         Type</span> <span style="display: none" class="budge"></span></button>
                                 <div class="dropdown-menu" id="ddMenu">
@@ -144,72 +142,143 @@
             </div>
         </div>
     </div>
-	
-	<!--Property services-->
-	 <div class="container-xxl py-5">
-            <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Property Services</h1>
-                    
+
+    <!--Property services-->
+
+<section class="property" id="property">
+    <div class="container">
+        <h2 class="h2 section-title" style="margin-top: 42px;">Property Services</h2>
+        <ul class="property-list has-scrollbar">
+            <li>
+                <div class="property-card">
+                    <figure class="card-banner">
+                        <a>
+                        <img src="img/property2.webp" class="w-100">
+                        </a>
+                    </figure>
+                    <div class="card-content">
+                        <h3 class="h3 card-title">
+                        <a>Packers and Movers</a>
+                        </h3>
+        
+                        <p class="card-text">
+                        Home shifting and Vehicle shifting at Guaranteed lowest prices
+                        </p>
+                    </div>
                 </div>
-                <div class="row g-3">
-				<div class="row g-3">
-                    <div class="col">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img  src="img/icon-apartment.png" alt="Icon">
-                                </div>
-                                <h5>packers and movers</h5>
-                               <p>Home shifting and vechile shifting a gauranteed lowest price</p>
-								
-                            </div>
+            </li>
+            <li>
+                <div class="property-card">
+                    <figure class="card-banner">
+                        <a>
+                        <img src="img/property1.webp" class="w-100">
                         </a>
+                    </figure>
+                    <div class="card-content">
+                        <h3 class="h3 card-title">
+                        <a>Cashback on Home Loans</a>
+                        </h3>
+        
+                        <p class="card-text">
+                        Home shifting and Vehicle shifting at Guaranteed lowest prices
+                        </p>
                     </div>
-                    <div class="col">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-villa.png" alt="Icon">
-                                </div>
-                                <h6>Interiors and Furnishing</h6>
-                                <ul>
-									<li>Attractive intrest Rates</li>
-								</ul>
-                            </div>
+                </div>
+            </li>
+            <li>
+                <div class="property-card">
+                    <figure class="card-banner">
+                        <a>
+                        <img src="img/property3.jpeg" class="w-100">
                         </a>
+                    </figure>
+                    <div class="card-content">
+                        <h3 class="h3 card-title">
+                        <a>Pay Rent</a>
+                        </h3>
+                        <p class="card-text">
+                        Home shifting and Vehicle shifting at Guaranteed lowest prices
+                        </p>
                     </div>
-                    <div class="col">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-house.png" alt="Icon">
-                                </div>
-                                <h6>Zero brokrage Rentals</h6>
-                                <ul>
-									<li>Attractive intrest Rates</li>
-								</ul>
-                            </div>
-                        </a>
-                    </div>
-					<div class="col">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-house.png" alt="Icon">
-                                </div>
-                                <h6>Zero brokrage Rentals</h6>
-                                <ul>
-									<li>Attractive intrest Rates</li>
-								</ul>
-                            </div>
-                        </a>
-                    </div>
-				</div>
-				
+                </div>
+            </li>
+        <li>
+            <div class="property-card">
+            <figure class="card-banner">
+                <a>
+                    <img src="img/property4.jpg" class="w-100">
+                </a>
+            </figure>
+            <div class="card-content">
+                <h3 class="h3 card-title">
+                <a>Legal Services</a>
+                </h3>
+
+                <p class="card-text">
+                Get expert legal help for all property-related matters
+                </p>
             </div>
+            </div>
+        </li>
+        </ul>
+    </div>
+    </section>
+    
+
+    
+
+    <!-- #ABOUT-->
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h1 class="section-title"><b>Featured Listing of the Week</b></h1>
+
+                <h1 class="h1 section-title">Get The Best Experience of the Real Estate!</h1>
+
+                <p class="about-text">
+                    We are ceating a seamless online experience to buy, rent and sell houses.
+                </p>
+
+                <ul class="about-list">
+
+                    <li class="about-item">
+                        <p class="about-item-text">Budget</p>
+                    </li>
+
+                    <li class="about-item">
+                        <p class="about-item-text">Size</p>
+                    </li>
+
+                    <li class="about-item">
+                        <p class="about-item-text">Status</p>
+                    </li>
+
+                    <li class="about-item">
+                        <p class="about-item-text">Flat</p>
+                    </li>
+                    <li class="about-item">
+                        <p class="about-item-text">Location</p>
+                    </li>
+
+                    <li class="about-item">
+                        <p class="about-item-text">Type</p>
+                    </li>
+
+                </ul>
+                <button type="button" class="btn1" id="about-btn">Get Started</button>
+
+            </div>
+
+            <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                <img src="img/about.jpg" class="img-fluid" alt="House interior">
+                <img src="img/about2.jpg" alt="House interior" class="abs-img">
+
+            </div>
+
         </div>
-		</div>
+    </section>
+
     <!-- Everything you Need at One Place section -->
     <div class="service-box-container">
         <div class="container">
@@ -372,14 +441,14 @@
         <div class="footer-top">
             <div class="container">
                 <div class="footer-brand">
-                    
-                      <ul class="footer-list">
-						
+
+                    <ul class="footer-list">
+
 
                         <li>
                             <p class="footer-list-title">Downtown</p>
                         </li>
-						<li>
+                        <li>
                             <a href="#" class="footer-link">Mobile apps</a>
                         </li>
 
@@ -391,7 +460,7 @@
                         <li>
                             <a href="#" class="footer-link">Our services</a>
                         </li>
-                       
+
 
                         <li>
                             <a href="#" class="footer-link">Post Your Property</a>
@@ -419,9 +488,9 @@
 
                     </ul>
 
-                   
 
-                    
+
+
                 </div>
 
                 <div class="footer-link-box">
@@ -475,16 +544,16 @@
                         <li>
                             <a href="#" class="footer-link">Safety Guide</a>
                         </li>
-						
-					</div>
 
-                    
-					<div>
+                </div>
 
-					
-					 <ul class="contact-list" >
-					 
-						<li>
+
+                <div>
+
+
+                    <ul class="contact-list">
+
+                        <li>
                             <p class="footer-list-title">Contact Us</p>
                         </li>
                         <li>
@@ -505,13 +574,11 @@
                         <li>
                             <a href="" class="contact-link">
                                 <img src="img/mail-svgrepo-com.svg" class="contact">
-
                                 <span>contact@gmail.com</span>
                             </a>
                         </li>
-
                     </ul>
-					<ul class="social-list">
+                    <ul class="social-list">
 
                         <li>
                             <a href="#" class="social-link">
@@ -524,13 +591,11 @@
                                 <img src="img/twitter-rounded-border-svgrepo-com.svg" class="social">
                             </a>
                         </li>
-
                         <li>
                             <a href="#" class="social-link">
                                 <img src="img/linkedin-svgrepo-com.svg" class="social">
                             </a>
                         </li>
-
                         <li>
                             <a href="#" class="social-link">
                                 <img src="img/youtube-svgrepo-com.svg" class="social">
@@ -541,25 +606,20 @@
                                 <img src="img/instagram-167-svgrepo-com.svg" class="social">
                             </a>
                         </li>
-
                     </ul>
-					<ul>
-
-					<li><p class="section-text">
-                        Downtown is India's largest integrated real estate marketplace,
-                        with category leadership presence accross multiple touch points of
-                        consumer home ownership journey. Downtown is at the forefront of each
-                        tech adoption in the sector, with multiple patents across VR/AI domains.
-                    </p></li>
-					</ul>
-					</div>
-
+                    <ul>
+                        <li>
+                            <p class="section-text">
+                                Downtown is India's largest integrated real estate marketplace,
+                                with category leadership presence accross multiple touch points of
+                                consumer home ownership journey. Downtown is at the forefront of each
+                                tech adoption in the sector, with multiple patents across VR/AI domains.
+                            </p>
+                        </li>
+                    </ul>
                 </div>
-
             </div>
         </div>
-
+        </div>
     </footer>
-
-
 </body>
